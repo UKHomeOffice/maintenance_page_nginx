@@ -1,3 +1,2 @@
-FROM nginx:stable-alpine
+FROM nginxinc/nginx-unprivileged
 COPY index.html usr/share/nginx/html/index.html
-USER 1000
